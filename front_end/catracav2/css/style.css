@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    justify-content: space-between;
+    font-size: calc((1.1vw + 1vh + 3px) / 2);
+    max-height: 200vw;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin-right: auto;
+    padding-left: 1%;
+    padding-bottom: 1%;
+    
+}
+
+footer img{
+    width: 7em;
+}
+
+footer span{
+    font-family: 'Inter', sem serifa;
+    text-transform: uppercase;
+    font-size: 1.3em;
+}
+
+
+.wrapper > img{
+    width: 26em;
+    margin: 0 auto 0 auto;   
+}
+
+.wrapper main{
+    position: absolute;
+    width: 21em;
+
+}
+
+.wrapper main img{
+    width: 100%;
+}
+
+header{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    row-gap: 0.2em;
+    margin-top: 0.7em;
+
+}
+
+header h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2.5em;
+    font-weight: 600;
+    padding-bottom: 0.7em;
+    font-family: 'Inter', sem serifa;
+    margin: auto;
+}
+
+header h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2em;
+    font-family: 'Inter', sem serifa;
+    font-weight: 500;
+}
+
+header img{
+    position: absolute;
+    right: 0;
+    margin: 4em 1.2em 0 0;
+}
+
+
+header .idoso{
+    display: none;
+    width: 6em;
+}
+
+header .estudante{
+    display: none;
+    width: 8em;
+}
+
+header .pcd{
+    /* display: none; */
+    width: 9em;
+}
+
+@media (max-width:442px){
+    .wrapper{
+        font-size: 2vw;
+    }
+
+    .wrapper > img{
+
+    
+}
